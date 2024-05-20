@@ -21,7 +21,11 @@ The Detection Lab project aimed at installing snort and suricata which are both 
 ## Steps
 snort
 - install the binary with apt install snort and you will have to type in your ip address of your entire subnet ie 192.168.23.0/24
-- 
+- For more details about snort id advise you to check out its man page (man snort)
+- snort -T -i enp0s3 -c /etc/snort/snort.conf
+-  where the T switch initiates testing mode
+-  i is the interface (this might differ across multiple networks)
+-  c is the configuration file which by default is in the /etc/ directory as per FHS standard
 
 
   b
