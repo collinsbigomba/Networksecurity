@@ -27,14 +27,14 @@ snort
 -  i is the interface (this might differ across multiple networks)
 -  c is the configuration file which by default is in the /etc/ directory as per FHS standard
   <br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snort.png" /></br>
-- u can check out snorpy if youre having difficulty in creating rules
-- snort -A -alert mode
-        -l - logs which are stored in /var/log/snort
-        -i - interace
-        -q - quiet mode
+<br> u can check out snorpy if youre having difficulty in creating rules</br>
+<br> snort -A -alert mode</br>
+      <br>  -l - logs which are stored in /var/log/snort</br>
+       <br> -i - interace</br>
+       <br> -q - quiet mode</br>
 
-snort -A console -i enp0s3 -c /etc/snort/snort.conf -l /var/log/snort.alert.fast -q
-
+<br>snort -A console -i enp0s3 -c /etc/snort/snort.conf -l /var/log/snort.alert.fast -q
+</br>
 
 Suricata
 - install the software with apt install suricata command in the terminal
