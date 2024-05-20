@@ -34,7 +34,7 @@ snort
         -q - quiet mode
 
 snort -A console -i enp0s3 -c /etc/snort/snort.conf -l /var/log/snort.alert.fast -q
-  
+
 
 Suricata
 - install the software with apt install suricata command in the terminal
