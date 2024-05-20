@@ -1,27 +1,29 @@
 # Networksecurity
 
 ## Objective
-The goal is to gain access to port 80 (http) 
+The goal is to install and configure snort and suricata
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The Detection Lab project aimed at installing snort and suricata which are both network intrusion detection systems (NIDS) and intrusion prevention systems (IPS) that monitor network traffic for suspicious activity and potential threats.
 
-### Skills Learned
-[Bullet Points - Remove this afterwards]
+### Skills Learnt
+- Network Traffic analysis
+- Intrusion detection and prevention
+- snort rule writing
+- System and network administration
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
+- Snort
+- suricata
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- 
 
 ## Steps
+snort
+- install the binary with apt install snort and you will have to type in your ip address of your entire subnet ie 192.168.23.0/24
+- 
+- 
 drag & drop screenshots here or use imgur and reference them using imgsrc
 
 Every screenshot should have some text explaining what the screenshot is about.
