@@ -26,6 +26,8 @@ snort
 -  where the T switch initiates testing mode
 -  i is the interface (this might differ across multiple networks)
 -  c is the configuration file which by default is in the /etc/ directory as per FHS standard
+  <br>  <img src="https://github.com/collinsbigomba/metasploitable2/blob/main/images/snort.png" /></br>
+
 
 
   b
