@@ -13,7 +13,6 @@ The Detection Lab project aimed at installing snort and suricata which are both 
 
 
 ### Tools Used
-
 - Snort
 - suricata
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
@@ -23,11 +22,6 @@ The Detection Lab project aimed at installing snort and suricata which are both 
 snort
 - install the binary with apt install snort and you will have to type in your ip address of your entire subnet ie 192.168.23.0/24
 - 
-- 
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
 
-Example below.
-
-*Ref 1: Network Diagram*
+  
