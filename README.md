@@ -19,7 +19,7 @@ The Detection Lab project aimed at installing snort and suricata which are both 
 - 
 
 ## Steps
-snort
+# snort
 - install the binary with apt install snort and you will have to type in your ip address of your entire subnet ie 192.168.23.0/24
 - For more details about snort id advise you to check out its man page (man snort)
 - snort -T -i enp0s3 -c /etc/snort/snort.conf
@@ -29,16 +29,16 @@ snort
   <br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snort.png" /></br>
 <br> u can check out snorpy if youre having difficulty in creating rules</br>
 <br> snort -A -alert mode</br>
-      <br>  -l - logs which are stored in /var/log/snort</br>
-       <br> -i - interace</br>
-       <br> -q - quiet mode</br>
+   -l - logs which are stored in /var/log/snort</br>
+   -i - interace
+   -q - quiet mode
+<br>snort -A console -i enp0s3 -c /etc/snort/snort.conf -q </br>
+<br>  This command initiates snort to start and is updated with your current network activity as you can see i used nmap to scan any ip from the subnet and it showed me both the attacker ip and target ip</br>
 
-<br>snort -A console -i enp0s3 -c /etc/snort/snort.conf -l /var/log/snort.alert.fast -q
-</br>
-
-Suricata
+# Suricata
 - install the software with apt install suricata command in the terminal
 - For more details about suricata, check out its help section (suricata --help)
+- suricata uses the systemd and you can enable it by typing systemctl enable suricata.service
 - 
 
 
