@@ -28,15 +28,16 @@ The Detection Lab project aimed at installing snort and suricata which are both 
 -  c is the configuration file which by default is in the /etc/ directory as per FHS standard
   <br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snort.png" /></br>
 <br> u can check out snorpy if youre having difficulty in creating rules</br>
-<br> snort -A -alert mode</br>
-   -l - logs which are stored in /var/log/snort</br>
-   -i - interace
-   -q - quiet mode
+<br> snort - A -alert mode</br>
+   - l - logs which are stored in /var/log/snort</br>
+   - i - interace
+   - q - quiet mode
 <br>snort -A console -i enp0s3 -c /etc/snort/snort.conf -q </br>
 <br>  This command initiates snort to start and is updated with your current network activity as you can see i used nmap to scan any ip from the subnet and it showed me both the attacker ip and target ip</br>
 <br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snortattack.png" /></br>
-<br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snortattack.png" /></br>
-- As you can see the in the images above, i carried out an nmap scan on the ip address of 192.168.17.14 and snort was able to recognize the attack on the network and this inceases the security of the network  
+<br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snortattack1.png" /></br>
+- As you can see the in the images above, i carried out an nmap scan on the ip address of 192.168.17.14 and snort was able to recognize the attack on the network which inceases the security of the network since the administrator can know the attacking ip address and block it
+- Though if you onfigure proxychains im sure you can get around the detection
 
 # Suricata
 - install the software with apt install suricata command in the terminal
