@@ -37,7 +37,7 @@ The Detection Lab project aimed at installing snort and suricata which are both 
 <br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snortattack.png" /></br>
 <br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snortattack1.png" /></br>
 - As you can see the in the images above, i carried out an nmap scan on the ip address of 192.168.17.14 and snort was able to recognize the attack on the network which inceases the security of the network since the administrator can know the attacking ip address and block it
-- Though if you onfigure proxychains im sure you can get around the detection
+- Though if you configure proxychains im sure you can get around the detection
 
 # Suricata
 - install the software with apt install suricata command in the terminal
