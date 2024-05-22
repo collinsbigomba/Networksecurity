@@ -34,6 +34,9 @@ The Detection Lab project aimed at installing snort and suricata which are both 
    -q - quiet mode
 <br>snort -A console -i enp0s3 -c /etc/snort/snort.conf -q </br>
 <br>  This command initiates snort to start and is updated with your current network activity as you can see i used nmap to scan any ip from the subnet and it showed me both the attacker ip and target ip</br>
+<br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snortattack.png" /></br>
+<br>  <img src="https://github.com/collinsbigomba/Networksecurity/blob/main/images/snortattack.png" /></br>
+- As you can see the in the images above, i carried out an nmap scan on the ip address of 192.168.17.14 and snort was able to recognize the attack on the network and this inceases the security of the network  
 
 # Suricata
 - install the software with apt install suricata command in the terminal
